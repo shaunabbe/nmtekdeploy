@@ -1,8 +1,93 @@
 
 /*******mdb.min.css*******/
 
+
+.pricing-card {
+    text-align: center;
+    position: center;
+    margin: auto;
+}
+
+.card {
+    position: center;
+    margin: auto;
+    font-weight: 400;
+    border: 0;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.white-text,
+dropdown .dropdown-menu .dropdown-item:hover,
+dropdown .dropdown-menu .dropdown-item:active,
+dropup .dropdown-menu .dropdown-item:hover,
+dropup .dropdown-menu .dropdown-item:active,
+dropleft .dropdown-menu .dropdown-item:hover,
+dropleft .dropdown-menu .dropdown-item:active,
+dropright .dropdown-menu .dropdown-item:hover,
+dropright .dropdown-menu .dropdown-item:active,
+side-nav,
+side-nav .search-form .form-control,
+md-toast-message a,
+md-toast-message label,
+md-toast-close-button,
+toast-container>div,
+picker__list-item--selected,
+picker__list-item--selected:hover,
+picker--focused .picker__list-item--selected,
+picker--time .picker__button--clear:hover,
+picker--time .picker__button--clear:focus,
+picker--time .picker__button--clear:hover::before,
+picker--time .picker__button--clear:focus::before,
+picker__date-display,
+picker__date-display .clockpicker-display .clockpicker-display-column .clockpicker-span-hours.text-primary,
+picker__date-display .clockpicker-display .clockpicker-display-column .clockpicker-span-minutes.text-primary,
+picker__date-display .clockpicker-display .clockpicker-display-column #click-am.text-primary,
+picker__date-display .clockpicker-display .clockpicker-display-column #click-pm.text-primary,
+clockpicker-display .clockpicker-display-column .clockpicker-span-hours.text-primary,
+clockpicker-display .clockpicker-display-column .clockpicker-span-minutes.text-primary,
+clockpicker-display .clockpicker-display-column #click-am.text-primary,
+clockpicker-display .clockpicker-display-column #click-pm.text-primary,
+darktheme .picker__box .picker__date-display .clockpicker-display,
+darktheme .picker__box .picker__date-display .clockpicker-display .clockpicker-span-am-pm,
+darktheme .picker__box .picker__calendar-container .clockpicker-plate .clockpicker-tick,
+darktheme .picker__box .picker__footer button,
+picker__box .picker__header .picker__date-display,
+picker__box .picker__table .picker__day--outfocus,
+picker__box .picker__table .picker__day--selected,
+picker__box .picker__table .picker__day--selected:hover,
+picker__box .picker__table .picker--focused {
+    color: #fff !important;
+}
+
+.purple-gradient {
+    background: linear-gradient(40deg, #ff6ec4, #7873f5) !important;
+}
+
+.aqua-gradient {
+    background: linear-gradient(40deg, #2096ff, #05ffa3) !important;
+}
+
 .peach-gradient {
     background: linear-gradient(40deg, #ffd86f, #fc6262) !important;
+}
+
+.pricing-card .option {
+    padding: 2.2rem;
+    margin-bottom: 50;
+    font-weight: 500;
+}
+
+.pricing-card .striped.green-striped li {
+    border-color: #33c28a;
+}
+
+.pricing-card .striped.purple-striped li {
+    border-color: #963c94;
+}
+
+.pricing-card .striped.orange-striped li {
+    border-color: #e97d63;
 }
 
 .pricing-card .card-background {
@@ -11,22 +96,12 @@
 }
 
 .pricing-card .striped {
-    padding: 1rem;
-}
-
-.pricing-card .option {
-    padding: 2.5rem;
-    margin-bottom: 0;
-    font-weight: 500;
+    padding: 0.5rem;
 }
 
 .pricing-card ul {
     padding: 0;
     list-style-type: none;
-}
-
-.pricing-card .striped.orange-striped li {
-    border-color: #e97d63;
 }
 
 .pricing-card .striped li {
@@ -35,6 +110,32 @@
 }
 
 /******bootstrap.min.css******/
+
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: 15px;
+    margin-left: 30px;
+    margin-bottom: 6em;
+    margin-top: 3em;
+}
 
 .rounded-top {
     border-top-left-radius: .25rem!important;
@@ -45,13 +146,7 @@
     -ms-flex: 1 1 auto;
     flex: 1 1 auto;
     min-height: 1px;
-    padding: 1.25rem;
-}
-
-*,
-:after,
-:before {
-    box-sizing: border-box;
+    padding: 1.2rem;
 }
 
 .pb-3,
@@ -62,6 +157,7 @@ py-3 {
 p {
     margin-top: 0;
     margin-bottom: 1rem;
+    font-size:16px;
 }
 
 .col,
