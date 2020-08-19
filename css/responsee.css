@@ -13,9 +13,11 @@
 body {
   background:none repeat scroll 0 0 #f8f8ff;
   font-size:18.5px;
-  font-family:"Cabin",sans-serif;
+  font-family:"OpenSans", Arial,sans-serif;
   color:#444;
+  line-height: 0.3;
 }
+
 h1,h2,h3,h4,h5,h6 {
   color:#152732;
   font-weight: normal;
@@ -137,7 +139,7 @@ form {line-height:1.4;}
 nav {
   display:block;
   width:100%;
-  background:#152732;
+  background: #152732;
 }
 .line::after, nav::after, .center::after, .box::after, .margin::after, .margin2x::after, .grid.full::after {
   clear:both;
@@ -153,7 +155,7 @@ nav {
   display:none;
 }
 .nav-text:after,.nav-text:before,.nav-text span {
-  background-color:#fff;
+  background-color:#f8f8ff;
   border-radius:3px;
   content:'';
   display:block;
@@ -893,7 +895,7 @@ nav.breadcrumb-nav ul li:last-child:after {content:"";}
     left:-100%;
     width:100%!important;
     bottom:0;
-    background:none repeat scroll 0 0 #1c3849;
+    background:none repeat scroll 0 0 #1c4755;
     overflow-y:auto;
     transition:left 0.20s linear 0s;
     -o-transition:left 0.20s linear 0s;

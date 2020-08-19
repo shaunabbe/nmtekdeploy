@@ -4,7 +4,7 @@
 
 .pricing-card {
     text-align: center;
-    position: center;
+    position: fixed;
     margin: auto;
 }
 

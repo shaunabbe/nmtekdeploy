@@ -65,25 +65,28 @@ a.color-btn:hover, form.customform button.color-btn:hover {
 	opacity: 1;
 }
 nav {
-	background: none repeat scroll 0 0 #00283a;
+	background-color:rgb(2, 33, 51);
+		
 }
 header {
 	border-bottom: 4px solid rgba(0, 40, 58, 0.53);
 	position: fixed;
 	width: 100%;
 	z-index: 10;
+	
 }
 img.logo {
 	float: left;
 	width: 1600px;
-	height: 100px;
+	height: 200px;
 	background: #ffffff00;
   } 
 
 .top-nav li a {
 	border-top: 2px solid #00283a;
-	color: #fff;
-	font-size: 0.95em;
+	color: #f8f8ff;
+	font-size: 0.85em;
+	text-shadow: 1px 4px 4px black;
 	font-weight: 300;
 	padding: 1.0em 1.0em 1.0em;
 	text-transform: capitalize;
@@ -94,10 +97,11 @@ img.logo {
 	-webkit-transition: all 0.20s linear 0s;
 }
 .top-nav li a:hover, .top-nav li.active-item a {
-	background: none repeat scroll 0 0 #00283a;
+	background: none repeat scroll 0 0 #021c29;
 	border-top: 2px solid #92c500;
 	color: #92c500;
 	position: relative;
+	border-radius: 30px 30px 30px 30px;
 }
 #carousel .text {
 	position: absolute;
@@ -217,10 +221,10 @@ img.logo {
 	padding: 4em;
 }
 article h2 {
-	font-size: 3.6em;
-	font-weight: 900;
-	letter-spacing: -2px;
-	line-height: 0.9;
+	font-size: 4.2em;
+	font-weight:800;
+	letter-spacing: -1px;
+	line-height: 1.0;
 	margin: 0 0 0.625em 0
 }
 article h1, article h2, article h3, article h4, article h5, article h6 {
@@ -238,7 +242,7 @@ article h1, article h2, article h3, article h4, article h5, article h6 {
 }
 article p, article li {
 	color: #f8f8ff;
-	font-size: 1.2em;
+	font-size: 1.0em;
 	opacity: 0.7;
 }
 article ul {
@@ -443,6 +447,11 @@ form.customform button.color-btn {
 	width: 26px;
 }
 
+.bg-image {
+	/* Add the blur effect */
+	filter: (1px);
+	-webkit-filter: blur(1px);
+}
 footer {
 	background: none repeat scroll 0 0 #00283a;
 	padding: 1.9em 0;
