@@ -365,13 +365,13 @@
                      <p><i class="icon-facebook icon"></i> <a href="https://www.facebook.com/revampnmtek/">Revamp-NMTek</a></p>                  
                   </div> 
                   <div class="s-12 m-12 l-5">
-                     <h3>Write to us directly</h3>
-                     <form class="customform" action="" data-netlify = "true">
-                       <div class="s-12"><input name="" placeholder="Your e-mail" title="Your e-mail" type="text" /></div>
-                       <div class="s-12"><input name="" placeholder="Your name" title="Your name" type="text" /></div>
-                       <div class="s-12"><textarea placeholder="Your message" name="" rows="5"></textarea></div>
-                       <div class="s-12 m-12 l-4"><button class="color-btn" type="submit">Submit Button</button></div>
-                     </form>
+                     <h3>Write to us directly</h3>                    
+                      <form class="customform" action = "POST" data-netlify = "true">
+                           <div class="s-12"><input id = "email" name="email" placeholder="Your e-mail" title="Your e-mail" type="email" /></div>
+                           <div class="s-12"><input id = "name" name="name" placeholder="Your name" title="Your name" type="text" /></div>
+                           <div class="s-12"><textarea id = "message" placeholder="Your message" name="message" rows="7"></textarea></div>
+                           <div class="s-12 m-12 l-4"><button class="color-btn" type="submit" value="Send Message">Submit Button</button></div>
+                     </form>            
                    </div>               
                </div>
             </div>

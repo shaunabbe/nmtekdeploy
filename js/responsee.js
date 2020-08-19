@@ -130,6 +130,7 @@ jQuery(document).ready(function($) {
       });
     }
   });
+
   //Tooltip
   $(".tooltip-container").each(function () {
     $(this).hover(function(){  
