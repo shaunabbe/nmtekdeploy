@@ -17,9 +17,9 @@ a.white-btn:hover {
 }
 a.color-btn, form.customform button.color-btn {
 	background: none;
-	border: 1px solid #001925;
+	border: 1px solid #0197E1;
 	border-radius: 3px;
-	color: #001925;
+	color: #0197E1;
 	display: block;
 	font-size: 0.85em;
 	padding: 0.625em 1.25em;
@@ -30,12 +30,12 @@ a.color-btn, form.customform button.color-btn {
 	-webkit-transition: all 0.20s linear 0s;
 }
 a.color-btn:hover, form.customform button.color-btn:hover {
-	border: 1px solid #92c500;
-	color: #92c500;
+	border: 1px solid #00894E;
+	color: #00894E;
 }
 #topbar {
-	background: none repeat scroll 0 0 #012232;
-	border-bottom: 1px solid #001925;
+	background: none repeat scroll 0 0 #0197E1;
+	border-bottom: 1px solid #0197E1;
 	padding: 0.3125em 0;
 }
 #topbar p {
@@ -49,7 +49,7 @@ a.color-btn:hover, form.customform button.color-btn:hover {
 	font-weight: 500;
 }
 #topbar i {
-	color: #00283a;
+	color: #0197E1;
 	font-size: 1.1em;
 	padding: 0px 10px;
 	opacity: 1.1;
@@ -65,11 +65,11 @@ a.color-btn:hover, form.customform button.color-btn:hover {
 	opacity: 1;
 }
 nav {
-	background: none repeat scroll 0 0 rgb(2, 33, 51);
+	background: none repeat scroll 0 0 rgb(255, 255, 255);
+	box-shadow: inset 0 -2px 5px rgb(0 0 0 / 33%);
 	overflow: auto;	
 }
 header {
-	border-bottom: 4px solid rgba(0, 40, 58, 0.53);
 	position: fixed;
 	width: 100%;
 	z-index: 10;
@@ -83,12 +83,11 @@ img.logo {
   } 
 
 .top-nav li a {
-	border-top: 2px solid #00283a;
-	color: #fbed8a;
+	border-top: none;
+	color: #02844A;
 	font-size: 0.85em;
-	text-shadow: 1px 4px 4px black;
 	font-weight: 300;
-	padding: 1.0em 1.0em 1.0em;
+	padding: 1.5em 1.5em 0.5em;
 	text-transform: capitalize;
 	transition: all 0.20s linear 0s;
 	-o-transition: all 0.20s linear 0s;
@@ -97,11 +96,10 @@ img.logo {
 	-webkit-transition: all 0.20s linear 0s;
 }
 .top-nav li a:hover, .top-nav li.active-item a {
-	background: none repeat scroll 0 0 #021c29;
-	border-top: 2px solid #92c500;
-	color: #92c500;
+	background: none repeat scroll 0 0 #ffffff4d;
+	color: #0197E1;
 	position: relative;
-	border-radius: 30px 30px 30px 30px;
+	border-radius: 30px 30px 30px;
 }
 #carousel .text {
 	position: absolute;
@@ -123,7 +121,7 @@ img.logo {
 	width: 30px;
 }
 #carousel .text h1 {
-	background: none repeat scroll 0 0 rgba(146, 197, 0, 0.8);
+	background: none repeat scroll 0 0 #0074ae96;
 	color: #f8f8ff;
 	display: inline-block;
 	font-size: 2.0em;
@@ -134,14 +132,14 @@ img.logo {
 	width: 100%;
 }
 #carousel .text p {
-	background: none repeat scroll 0 0 #00283a;
+	background: none repeat scroll 0 0 #004c2b;
 	color: #f8f8ff;
 	max-width: 600px;
 	padding: 10px 20px;
 	width: 100%;
 }
 #carousel .owl-dots {
-	background: none repeat scroll 0 0 rgba(0, 40, 58, 0.53);
+	background: none repeat scroll 0 0 #0074ae00;
 	bottom: 0;
 	margin: 0;
 	padding: 0.3em 0;
@@ -150,18 +148,18 @@ img.logo {
 }
 .owl-carousel.owl-theme .owl-dot span {
 	background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
-	border: 3px solid rgba(0, 40, 58, 0.57);
+	border: 3px solid #0074AE;
 	height: 18px;
 	margin: 0 0.3125em;
 	opacity: 1;
 	width: 18px;
 }
 .owl-carousel.owl-theme .owl-dot.active span, .owl-carousel.owl-theme .owl-dot:hover span {
-	background: none repeat scroll 0 0 #92c500;
+	background: none repeat scroll 0 0 #00894E;
 }
 #first-block {
-	background: none repeat scroll 0 0 #00283a;
-	padding: 3em 2em;
+	background: none repeat scroll 0 0 #001d10;
+	padding: 1.5em 1.5em;
 	text-align: center;
 }
 #first-block h1 {
@@ -183,7 +181,7 @@ img.logo {
 	z-index: 2;
 }
 #features i {
-	background: none repeat scroll 0 0 #92c500;
+	background: none repeat scroll 0 0 #00894E;
 	border-radius: 100px;
 	box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.3) inset;
 	color: #f8f8ff;
@@ -206,7 +204,7 @@ img.logo {
 	line-height: 1.5em;
 }
 #about-us {
-	background: none repeat scroll 0 0 #00283a;
+	background: none repeat scroll 0 0 #001d10;
 	clear: both;
 }
 #about-us:after {
@@ -254,7 +252,7 @@ article ul li {
 	padding: 0 0 0 1em;
 }
 article ul li:before {
-	background: #00283a none repeat scroll 0 0;
+	background: #0074AE none repeat scroll 0 0;
 	color: #f8f8ff;
 	content: "\f006";
 	display: inline-block;
@@ -268,9 +266,9 @@ article ul li:before {
 	width: 20px;
 }
 .about-us-icons i {
-	border: 2px solid #92c500;	
+	border: 2px solid #00894E;	
 	border-radius: 100px;
-	color: #92c500;
+	color: #00894E;
 	display: block;
 	float: left;
 	font-size: 1.5em;
@@ -321,7 +319,7 @@ h2.section-title {
 	position: relative;
 }
 .our-work-text {
-	background: #00283a none repeat scroll 0 0;
+	background: #0074AE none repeat scroll 0 0;
 	bottom: 0;
 	display: block;
 	left: 0;
@@ -342,7 +340,7 @@ h2.section-title {
 	display: table;
 }
 a.tab-label, a.tab-label:link, a.tab-label:visited {
-	background: #00283a none repeat scroll 0 0;
+	background: #002131 none repeat scroll 0 0;
 	color: #fff;
 	display: block;
 	font-size: 1em;
@@ -354,11 +352,11 @@ a.tab-label, a.tab-label:link, a.tab-label:visited {
 	-webkit-transition: all 0.20s linear 0s;
 }
 a.tab-label:hover, a.tab-label.active-btn {
-	background: #92c500;
+	background: #001d10;
 	color: #fff;
 }
 #services {
-	background: #6f9600 none repeat scroll 0 0;
+	background: #001d10 none repeat scroll 0 0;
 	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
 	padding: 4em 0em 2em 2em;
 }
@@ -372,7 +370,7 @@ a.tab-label:hover, a.tab-label.active-btn {
 #services i {
 	background: none repeat scroll 0 0 #fff;
 	border-radius: 80px;
-	color: #6f9600;
+	color: #00894E;
 	display: block;
 	float: left;
 	font-size: 1.8em;
@@ -387,13 +385,13 @@ a.tab-label:hover, a.tab-label.active-btn {
 	position: relative;
 }
 #services h3 {
-	color: #f8f8ff;
+	color: #cecece;
 	font-size: 1.1em;
 	font-weight: 700;
 	text-transform: uppercase;
 }
 #services p {
-	color: #f8f8ff;
+	color: #a5a5a5;
 	font-size: 1.0em;
 }
 #latest-news {
@@ -405,7 +403,7 @@ a.tab-label:hover, a.tab-label.active-btn {
 }
 
 #contact {
-	background: none repeat scroll 0 0 #f8f8ff;
+	background: none repeat scroll 0 0 #000f08;
 	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
 	padding: 4em 2em;
 	position: relative;
@@ -423,7 +421,7 @@ form.customform button.color-btn {
 	margin: 0 0 1.25em;
 }
 #contact h3 {
-	color: #92c500;
+	color: #00894E;
 	font-size: 1em;
 	font-weight: 700;
 	margin: 0 0 0.625em;
@@ -433,6 +431,8 @@ form.customform button.color-btn {
 	font-size: 0.9em;
 	font-style: normal;
 	line-height: 1.7em;
+	font-variant: proportional-nums;
+	color: #a5a5a5;
 }
 #contact p strong {
 	font-weight: 700;
@@ -440,7 +440,7 @@ form.customform button.color-btn {
 #contact i {
 	background: #e0e0e0 none repeat scroll 0 0;
 	border-radius: 38px;
-	color: #00283a;
+	color: #01547e;
 	display: inline-block;
 	line-height: 26px;
 	margin: 0.625em;
@@ -449,12 +449,12 @@ form.customform button.color-btn {
 }
 
 footer {
-	background: none repeat scroll 0 0 #00283a;
+	background: none repeat scroll 0 0 #090e0c;
 	padding: 1.9em 0;
 }
 footer p, footer a:visited, footer a, footer a:hover {
-	color: #4e788d;
-	font-size: 0.74em;
+	color: #006a9e;
+	font-size: 0.75em;
 	margin: auto;
 	text-align: center;
 }
@@ -473,11 +473,11 @@ footer p, footer a:visited, footer a, footer a:hover {
   	float: none;
   }
   .top-nav li a {
-	border-top: 2px solid #b4b9866b;
-	color: #fbed8a;
-	font-size: 0.88em;
-	border-radius: 30px 30px 30px 30px;
-	background-color:rgb(3 13 37/90%);
+	border-top: 2px solid #ffffff6b;
+	color: #d6d6d6;
+	font-size: 0.80em;
+	border-radius: 5px 30px 10px;
+	background-color:#123e2b;
   }
   #about-us article {
   	padding: 4em 2.5em;

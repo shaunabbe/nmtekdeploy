@@ -57,7 +57,9 @@ picker__box .picker__table .picker__day--outfocus,
 picker__box .picker__table .picker__day--selected,
 picker__box .picker__table .picker__day--selected:hover,
 picker__box .picker__table .picker--focused {
-    color: #fff !important;
+    color: #869791 !important;
+    
+
 }
 
 .purple-gradient {
