@@ -428,14 +428,14 @@ form.customform button.color-btn {
 	text-transform: uppercase;
 }
 #contact p {
-	font-size: 0.9em;
+	font-size: 0.85em;
 	font-style: normal;
-	line-height: 1.9em;
+	line-height: 2.2em;
 	font-variant: proportional-nums;
 	color: #a5a5a5;
 }
 #contact p strong {
-	font-weight: 700;
+	font-weight: 600;
 }
 #contact i {
 	background: #e0e0e0 none repeat scroll 0 0;
