@@ -31,7 +31,7 @@ h5 {font-size:1.1rem;}
 h6 {font-size:0.9rem;}    
 a, a:link, a:visited, a:hover, a:active {
   text-decoration:none;
-  color:#0197E1;
+  color:#00894e;
   transition:color 0.20s linear 0s;
   -o-transition:color 0.20s linear 0s;
   -ms-transition:color 0.20s linear 0s;
@@ -52,7 +52,7 @@ img {
   display:block;
   height:auto;
   max-width:100%;
-  width:auto;
+  width:100%;
 }
 .owl-item img, .full-img {
   max-width:none;

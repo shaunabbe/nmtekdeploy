@@ -410,7 +410,7 @@ a.tab-label:hover, a.tab-label.active-btn {
 	z-index: 2;
 }
 #contact input, #contact textarea {
-	background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+	background: none repeat scroll 0 0 rgb(165, 165, 165);
 	border-radius: 3px;
 }
 form.customform button.color-btn {
@@ -422,15 +422,15 @@ form.customform button.color-btn {
 }
 #contact h3 {
 	color: #00894E;
-	font-size: 1em;
-	font-weight: 700;
+	font-size: 0.9em;
+	font-weight: 300;
 	margin: 0 0 0.625em;
 	text-transform: uppercase;
 }
 #contact p {
 	font-size: 0.9em;
 	font-style: normal;
-	line-height: 1.7em;
+	line-height: 1.9em;
 	font-variant: proportional-nums;
 	color: #a5a5a5;
 }
